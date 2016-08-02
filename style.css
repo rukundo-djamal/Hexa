@@ -163,7 +163,6 @@ footer {
 }
 
 }
-}
 
 @media screen and (max-width: 360px) {
 #carousel-example-generic{
@@ -199,6 +198,7 @@ footer {
   padding-top: 0px;
   padding-bottom: 5px; 
 }
+}
 @media screen and (max-width: 414px) {
 #carousel-example-generic{
   height: 180px;
@@ -208,7 +208,7 @@ footer {
 
 }
 .imge{
-  height: 180px;
+  height: 18px;
 }
 .jumbotron{
   margin-top: 0px;
@@ -219,12 +219,88 @@ footer {
 }
 
 }
-
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+
+
+
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+@media (min-width: @screen-md-min) { 
+#carousel-example-generic{
+  height: 360px;
+}
+.item{
+  height: 360px;
+
+}
+.imge{
+  height: 360px;
+}
+.jumbotron{
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px; 
+}
+
+}
+@media (min-width:412px) and (max-width:545px) { 
+ #carousel-example-generic{
+  height: 250px;
+}
+.item{
+  height: 250px;
+
+}
+.imge{
+  height: 250px;
+}
+.jumbotron{
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px; 
+}
+
+
+
+
+ }
+
+
+
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+@media (min-width:1000px) and (max-width:5000px) { 
+#carousel-example-generic{
+  height: 450px;
+}
+.item{
+  height: 450px;
+
+}
+.imge{
+  height: 450px;
+}
+.jumbotron{
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px; 
+}
+
+}
+@media screen and (max-width: 331px) {
+#carousel-example-generic{
+  height: 155px;
+}
+.item{
+  height: 155px;
+
+}
+.imge{
+  height: 155px;
+}
+.jumbotron{
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 2px; 
+}
+}
