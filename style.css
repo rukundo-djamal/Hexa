@@ -1,0 +1,156 @@
+/* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  
+  position: relative;
+
+  background-color: #f3e5f5;
+
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  
+}
+
+.media-object{
+  padding-left: 10px;
+}
+.space{
+  padding-left: 15px;
+  padding-right: 0px
+}
+/* Initial menu */
+.menu {
+  background: #fafafa;
+  left:-200px; /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 200px;
+}
+
+/* Basic styling */
+
+
+
+.jumbotron{
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+
+
+}
+#carousel-example-generic{
+  height: 300px;
+}
+.item{
+  height: 300px;
+
+}
+.imge{
+  height: 300px;
+}
+
+.jumbotron h1{
+  text-align: center;
+}
+.menu ul {
+  border-top: 1px solid #424242;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #424242;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #424242;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.icon-menu {
+  color: #424242;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-top: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+.logo h3{
+  text-align: center;
+  color: #424242;
+  float: right;
+  display: inline-block;
+
+}
+
+footer {
+        background: #333333;
+        width: 100%;
+        overflow: hidden;
+        opacity: 0.90;
+        font-style: verdana;
+    }
+    footer p,
+    footer h5 {
+        text-align: center;
+        color: #fff;
+
+    }
+    footer p a {
+        color: #fff;
+        text-decoration: none;
+    }
+    ul.social li {
+        display: inline-table;
+        list-style: none;
+    }
+    ul .social li ing {
+        height: 35px;
+    }
+    footer.second {
+        border-top: none;
+        background-color: #333333;
+        max-height: 35px;
+        text-align: center;
+        opacity: 0.95;}
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
