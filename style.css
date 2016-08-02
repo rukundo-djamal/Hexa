@@ -145,7 +145,24 @@ footer {
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+@media screen and (max-width: 320px) {
+#carousel-example-generic{
+  height: 172px;
+}
+.item{
+  height: 172px;
 
+}
+.imge{
+  height: 172px;
+}
+.jumbotron{
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 2px; 
+}
+
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { ... }
 
