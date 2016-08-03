@@ -13,6 +13,11 @@ body {
           background-size: cover;
   
 }
+#space{
+  height: 41px;
+  width: auto;
+  background-color: #f3e5f5;
+}
 
 
 .media-object{
