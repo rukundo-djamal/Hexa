@@ -14,6 +14,7 @@ body {
   
 }
 
+
 .media-object{
   padding-left: 10px;
 }
@@ -28,6 +29,7 @@ body {
   height: 100%;
   position: fixed;
   width: 200px;
+  padding-top: 61px;
 }
 
 /* Basic styling */
@@ -41,16 +43,7 @@ body {
 
 
 }
-#carousel-example-generic{
-  height: 300px;
-}
-.item{
-  height: 300px;
 
-}
-.imge{
-  height: 300px;
-}
 
 .jumbotron h1{
   text-align: center;
@@ -87,6 +80,8 @@ body {
 }
 
 .icon-menu {
+  display: inline-flex;
+  
   color: #424242;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
@@ -96,17 +91,11 @@ body {
   padding-top: 10px;
   text-decoration: none;
   text-transform: uppercase;
+  
 }
 
 .icon-menu i {
   margin-right: 5px;
-}
-.logo h3{
-  text-align: center;
-  color: #424242;
-  float: right;
-  display: inline-block;
-
 }
 
 footer {
