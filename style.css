@@ -53,6 +53,10 @@ body {
 .jumbotron h1{
   text-align: center;
 }
+.jumbotron h3{
+  padding-top: 0px;
+  text-align: center;
+}
 .menu ul {
   
   list-style: none;
